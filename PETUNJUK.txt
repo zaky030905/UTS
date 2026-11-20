@@ -1,0 +1,13 @@
+MEDICAL INVENTORY SYSTEM — MUHAMMAD ZAKY ALFIANSYAH
+NIM: 1202405029
+
+1. Ekstrak ZIP dan pindahkan folder ke C:\xampp\htdocs\.
+2. Jalankan Apache dan MySQL di XAMPP.
+3. Buka http://localhost/phpmyadmin.
+4. Jika database belum ada, import database.sql.
+5. Jika database inventaris sudah ada, pilih db_alat_elektromedis lalu import auth.sql untuk membuat tabel akun tanpa menghapus data inventaris.
+6. Buka http://localhost/MEDICAL_INVENTORY_ZAKY/register.php untuk membuat akun.
+7. Login melalui http://localhost/MEDICAL_INVENTORY_ZAKY/login.php.
+8. Setelah login, dashboard inventaris dapat digunakan.
+
+Baca README.md untuk petunjuk lengkap.
