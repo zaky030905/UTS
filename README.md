@@ -36,7 +36,7 @@ Aplikasi CRUD inventaris alat elektromedis menggunakan PHP Native dan MySQL/Mari
 2. Jalankan **Apache** dan **MySQL** pada XAMPP.
 3. Buka `http://localhost/phpmyadmin`.
 4. Pilih menu **Import**, lalu pilih `database.sql` dan jalankan import.
-5. Buka `http://localhost/MEDICAL_INVENTORY_ZAKY/`.
+5. Buka `http://localhost/UTS/login.php`.
 
 ## Catatan
 - Konfigurasi database berada di `config.php`.
@@ -52,7 +52,7 @@ Aplikasi CRUD inventaris alat elektromedis menggunakan PHP Native dan MySQL/Mari
 ## Mengaktifkan Login dan Register pada database yang sudah ada
 Jika database `db_alat_elektromedis` sudah pernah dibuat sebelumnya, buka phpMyAdmin, pilih database tersebut, buka tab **Import**, lalu import file `auth.sql`. File ini hanya membuat tabel `users` jika belum tersedia dan tidak menghapus data inventaris.
 
-Setelah tabel dibuat, buka `http://localhost/MEDICAL_INVENTORY_ZAKY/register.php` untuk membuat akun pertama. Setelah pendaftaran berhasil, login melalui `login.php`. Dashboard dan halaman CRUD akan meminta login terlebih dahulu.
+Setelah tabel dibuat, buka `http://localhost/UTS/login.phpregister.php` untuk membuat akun pertama. Setelah pendaftaran berhasil, login melalui `login.php`. Dashboard dan halaman CRUD akan meminta login terlebih dahulu.
 
 **Catatan:** Setiap orang yang dapat membuka halaman Register dapat membuat akun. Untuk penggunaan produksi, batasi pendaftaran atau tambahkan persetujuan admin serta gunakan HTTPS.
 
